@@ -3,13 +3,12 @@
 Here we will start with some basic steps to start you down the road
 for becoming a developer!
 
+Let's start by forking the repo on github, and then creating a clone.
 
-First we will create a github account
-Then we will make a fork of this repo
+    git clone https://github.com/yourusername/ipython_demo.git
 
-    git clone https://github.com/yourname/ipython\_demo.git
-
-You can try changing the text of this README, then running
+You can try changing the text of this README, then using `git commit`
+and `git push` to upload your changes
 
     git add README.md
     git commit -m "Updated README"
@@ -24,18 +23,22 @@ the recent news about this nice synergy.
 
 https://github.com/blog/1995-github-jupyter-notebooks-3
 
-
+Then let's just try and install IPython notebook (aka Jupyter) and
+Matplotlib:
 
     pip install ipython[notebook]
     pip install matplotlib
     ipython notebook
 
 
-This will launch a web-based based jupyter shell.
+This will launch a web-based based jupyter shell and we can use this
+for interactively coding our demo.
 
-Notes: see note about installing matplotlib
-http://matplotlib.org/faq/installing\_faq.html#install-osx-binaries
 
-Note that I recommend homebrew's python since I received "Python.h not
-found errors otherwise"
+Note: if you have trouble with these steps, feel free to ask me but
+also note that the demo notebook will run on github even if you don't
+have these packages installed to your computer
 
+
+Mac OSX note: It is likely better to use a homebrew version of python
+because otherwise there are errors about missing "Python.h"
