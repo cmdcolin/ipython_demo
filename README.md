@@ -1,7 +1,7 @@
 ## Quick-start Tutorial
 
 Here we will start with some basic steps to start you down the road
-for becoming a developer!
+to becoming a developer!
 
 Let's start by forking the repo on github, and then creating a clone.
 
